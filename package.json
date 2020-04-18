@@ -8,7 +8,7 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Adedayo Adegboye",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
