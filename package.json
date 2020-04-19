@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -33,5 +33,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdedayoMj/YobetitTestServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AdedayoMj/YobetitTestServer/issues"
+  },
+  "homepage": "https://github.com/AdedayoMj/YobetitTestServer#readme"
 }
