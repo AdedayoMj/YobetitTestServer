@@ -6,8 +6,8 @@ const User = require("../models/User");
 const keys = process.env.JWT_Secret;
 
 // Load input validation
-const validateRegisterInput = require("../authValidation/Register");
-const validateLoginInput = require("../authValidation/login");
+const validateRegisterInput = require("../authValidation/Register")
+const validateLoginInput = require("../authValidation/Login");
 // Load User model
 
 
