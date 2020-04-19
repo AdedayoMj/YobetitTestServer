@@ -2,14 +2,14 @@ const router = require("express").Router();
 
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
-
+const User = require("../models/User");
 const keys = process.env.JWT_Secret;
 
 // Load input validation
-const validateRegisterInput = require("../validation/Register");
-const validateLoginInput = require("../validation/login");
+const validateRegisterInput = require("../authValidation/Register");
+const validateLoginInput = require("../authValidation/login");
 // Load User model
-const User = require("../models/User");
+
 
 router.post("/register", (req, res) => {
   console.log(req.body);
